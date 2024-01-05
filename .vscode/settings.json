@@ -16,18 +16,22 @@
   },
   "cmake.environment": {
     "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk",
+    "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
     "PATH": "${env:PATH}:${workspaceFolder}/picotool/build"
   },
   "terminal.integrated.env.linux": {
     "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk",
+    "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
     "PATH": "${env:PATH}:${workspaceFolder}/picotool/build"
   },
   "terminal.integrated.env.windows": {
     "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk",
+    "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
     "PATH": "${env:PATH}:${workspaceFolder}/picotool/build"
   },
   "terminal.integrated.env.osx": {
     "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk",
+    "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
     "PATH": "${env:PATH}:${workspaceFolder}/picotool/build"
   }
 }

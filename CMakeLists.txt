@@ -14,11 +14,15 @@ set(PICO_BOARD pico CACHE STRING "Board type")
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
+# We also need PICO EXTRAS
+include(pico_extras_import.cmake)
+
 if (PICO_SDK_VERSION_STRING VERSION_LESS "1.4.0")
   message(FATAL_ERROR "Raspberry Pi Pico SDK version 1.4.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}")
 endif()
 
 project(pico-project-generator-app C CXX ASM)
+project(pico_playground C CXX)
 
 set(PICO_CXX_ENABLE_EXCEPTIONS 1)
 
