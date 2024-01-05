@@ -8,3 +8,6 @@
 [submodule "pico-examples"]
 	path = pico-examples
 	url = https://github.com/raspberrypi/pico-examples.git
+[submodule "pico-project-generator"]
+	path = pico-project-generator
+	url = https://github.com/raspberrypi/pico-project-generator.git
