@@ -2,7 +2,11 @@
   "configurations": [
     {
       "name": "Linux",
-      "includePath": ["${workspaceFolder}/**", "${env:PICO_SDK_PATH}/**"],
+      "includePath": [
+        "${workspaceFolder}/**",
+        // "${env:PICO_SDK_PATH}/**",
+        "${workspaceFolder}/pico-sdk/**"
+      ],
       "defines": [],
       "compilerPath": "/usr/bin/arm-none-eabi-gcc",
       "cStandard": "gnu17",

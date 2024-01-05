@@ -1,17 +1,29 @@
 {
   "cmake.configureOnOpen": false,
   "cmake.statusbar.advanced": {
-    "debug" : {
+    "debug": {
       "visibility": "hidden"
-              },
-    "launch" : {
+    },
+    "launch": {
       "visibility": "hidden"
-               },
-    "build" : {
+    },
+    "build": {
       "visibility": "hidden"
-               },
-    "buildTarget" : {
+    },
+    "buildTarget": {
       "visibility": "hidden"
-               },
-     },
+    }
+  },
+  "cmake.environment": {
+    "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk"
+  },
+  "terminal.integrated.env.linux": {
+    "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk"
+  },
+  "terminal.integrated.env.windows": {
+    "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk"
+  },
+  "terminal.integrated.env.osx": {
+    "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk"
+  }
 }
