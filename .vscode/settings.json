@@ -1,17 +1,17 @@
 {
   "cmake.configureOnOpen": false,
-  "cmake.statusbar.advanced": {
+  "cmake.options.advanced": {
     "debug": {
-      "visibility": "hidden"
+      "statusBarVisibility": "hidden"
     },
     "launch": {
-      "visibility": "hidden"
+      "statusBarVisibility": "hidden"
     },
     "build": {
-      "visibility": "hidden"
+      "statusBarVisibility": "hidden"
     },
     "buildTarget": {
-      "visibility": "hidden"
+      "statusBarVisibility": "hidden"
     }
   },
   "cmake.environment": {
@@ -34,5 +34,16 @@
     "PICO_EXTRAS_PATH": "${workspaceRoot}/pico-extras",
     "PATH": "${env:PATH}:${workspaceRoot}/picotool/build"
   },
-  "cortex-debug.gdbPath": "arm-none-eabi-gdb"
+  "cortex-debug.gdbPath": "arm-none-eabi-gdb",
+  "python.linting.enabled": true,
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingModuleSource": "none"
+  },
+  "micropico.syncFolder": "",
+  "micropico.openOnStart": true,
+  "python.analysis.typeshedPaths": [".vscode/Pico-W-Stub"],
+  "python.analysis.extraPaths": [".vscode/Pico-W-Stub"],
+  "python.analysis.autoImportCompletions": true
 }
