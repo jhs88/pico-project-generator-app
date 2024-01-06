@@ -4,13 +4,25 @@
       "name": "Linux",
       "includePath": [
         "${workspaceFolder}/**",
-        "${env:PICO_SDK_PATH}/**",
-        "${env:PICO_EXTRAS_PATH}/**"
-        // "${workspaceFolder}/pico-sdk/**",
-        // "${workspaceFolder}/pico-extras**"
+        "${workspaceFolder}/pico-sdk/**",
+        "${workspaceFolder}/pico-extras**"
       ],
       "defines": [],
       "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-arm",
+      "configurationProvider": "ms-vscode.cmake-tools"
+    },
+    {
+      "name": "M1",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/pico-sdk/**",
+        "${workspaceFolder}/pico-extras/**"
+      ],
+      "defines": [],
+      "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
       "cStandard": "gnu17",
       "cppStandard": "gnu++14",
       "intelliSenseMode": "linux-gcc-arm",
