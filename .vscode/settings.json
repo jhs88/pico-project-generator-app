@@ -14,6 +14,8 @@
       "statusBarVisibility": "hidden"
     }
   },
+  // "cmake.buildBeforeRun": true,
+  // "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
   "cmake.environment": {
     "PICO_SDK_PATH": "${workspaceRoot}/pico-sdk",
     "PICO_EXTRAS_PATH": "${workspaceRoot}/pico-extras",

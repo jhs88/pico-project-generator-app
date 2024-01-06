@@ -26,14 +26,14 @@
       "name": "M1",
       "includePath": [
         "${workspaceFolder}/**",
-        "${workspaceFolder}/pico-sdk/**",
-        "${workspaceFolder}/pico-extras/**"
+        "${env:PICO_SDK_PATH}/**",
+        "${env:PICO_EXTRAS_PATH}/**"
       ],
       "defines": [],
       "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
       "cStandard": "gnu17",
       "cppStandard": "gnu++14",
-      "intelliSenseMode": "linux-gcc-arm",
+      "intelliSenseMode": "macos-gcc-arm",
       "configurationProvider": "ms-vscode.cmake-tools"
     }
   ],
