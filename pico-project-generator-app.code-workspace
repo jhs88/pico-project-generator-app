@@ -1,0 +1,45 @@
+{
+  "folders": [
+    { "path": "app" },
+    { "path": "pico-examples" },
+    { "path": "pico-extras" },
+    { "path": "pico-playground" },
+    { "path": "pico-project-generator" },
+    { "path": "pico-sdk" },
+    { "path": "picoprobe" },
+    { "path": "picotool" }
+  ],
+  "settings": {
+    "cmake.options.advanced": {
+      "debug": {
+        "statusBarVisibility": "hidden"
+      },
+      "launch": {
+        "statusBarVisibility": "hidden"
+      },
+      "build": {
+        "statusBarVisibility": "hidden"
+      },
+      "buildTarget": {
+        "statusBarVisibility": "hidden"
+      }
+    },
+    "terminal.integrated.env.linux": {
+      "PICO_SDK_PATH": "${workspaceRoot}/pico-sdk",
+      "PICO_EXTRAS_PATH": "${workspaceRoot}/pico-extras",
+      "PATH": "${env:PATH}:${workspaceRoot}/picotool/build"
+    },
+    "terminal.integrated.env.windows": {
+      "PICO_SDK_PATH": "${workspaceRoot}\\pico-sdk",
+      "PICO_EXTRAS_PATH": "${workspaceRoot}\\pico-extras",
+      "PATH": "${env:PATH}:${workspaceRoot}\\picotool\\build"
+    },
+    "terminal.integrated.env.osx": {
+      "PICO_SDK_PATH": "${workspaceRoot}/pico-sdk",
+      "PICO_EXTRAS_PATH": "${workspaceRoot}/pico-extras",
+      "PATH": "${env:PATH}:${workspaceRoot}/picotool/build"
+    },
+    "cortex-debug.gdbPath": "arm-none-eabi-gdb",
+    "python.languageServer": "Pylance"
+  }
+}

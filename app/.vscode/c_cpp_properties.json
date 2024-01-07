@@ -3,17 +3,17 @@
     {
       "name": "Linux",
       "includePath": [
-        "${workspaceRoot}/**",
+        "${workspaceFolder}/**",
         // "${env:PICO_SDK_PATH}/**",
         // "${env:PICO_EXTRAS_PATH}/**",
         // "${env:PICO_EXAMPLES_PATH}/**",
         // "${env:PICO_PLAYGROUND_PATH}/**",
-        "${workspaceRoot}/pico-sdk/**",
-        "${workspaceRoot}/pico-extras/**",
-        "${workspaceRoot}/pico-playground/**",
-        "${workspaceRoot}/pico-project-generator/**",
-        "${workspaceRoot}/picoprobe/**",
-        "${workspaceRoot}/picotool/**"
+        "${workspaceFolder}/pico-sdk/**",
+        "${workspaceFolder}/pico-extras/**",
+        "${workspaceFolder}/pico-playground/**",
+        "${workspaceFolder}/pico-project-generator/**",
+        "${workspaceFolder}/picoprobe/**",
+        "${workspaceFolder}/picotool/**"
       ],
       "defines": [],
       "compilerPath": "/usr/bin/arm-none-eabi-gcc",
@@ -25,13 +25,17 @@
     {
       "name": "M1",
       "includePath": [
-        "${workspaceRoot}/**",
-        "${workspaceRoot}/pico-sdk/**",
-        "${workspaceRoot}/pico-extras/**",
-        "${workspaceRoot}/pico-playground/**",
-        "${workspaceRoot}/pico-project-generator/**",
-        "${workspaceRoot}/picoprobe/**",
-        "${workspaceRoot}/picotool/**"
+        "${workspaceFolder}/**",
+        // "${env:PICO_SDK_PATH}/**",
+        // "${env:PICO_EXTRAS_PATH}/**",
+        // "${env:PICO_EXAMPLES_PATH}/**",
+        // "${env:PICO_PLAYGROUND_PATH}/**"
+        "${workspaceFolder}/../pico-sdk/**",
+        "${workspaceFolder}/../pico-extras/**",
+        "${workspaceFolder}/../pico-playground/**",
+        "${workspaceFolder}/../pico-project-generator/**",
+        "${workspaceFolder}/../picoprobe/**",
+        "${workspaceFolder}/../picotool/**"
       ],
       "defines": [],
       "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
