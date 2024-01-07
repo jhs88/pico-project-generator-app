@@ -24,20 +24,22 @@
         "statusBarVisibility": "hidden"
       }
     },
+    "cmake.buildBeforeRun": true,
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "terminal.integrated.env.linux": {
-      "PICO_SDK_PATH": "${workspaceRoot}/pico-sdk",
-      "PICO_EXTRAS_PATH": "${workspaceRoot}/pico-extras",
-      "PATH": "${env:PATH}:${workspaceRoot}/picotool/build"
+      "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk",
+      "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
+      "PATH": "${env:PATH}:${workspaceFolder}/picotool/build"
     },
     "terminal.integrated.env.windows": {
-      "PICO_SDK_PATH": "${workspaceRoot}\\pico-sdk",
-      "PICO_EXTRAS_PATH": "${workspaceRoot}\\pico-extras",
-      "PATH": "${env:PATH}:${workspaceRoot}\\picotool\\build"
+      "PICO_SDK_PATH": "${workspaceFolder}\\pico-sdk",
+      "PICO_EXTRAS_PATH": "${workspaceFolder}\\pico-extras",
+      "PATH": "${env:PATH}:${workspaceFolder}\\picotool\\build"
     },
     "terminal.integrated.env.osx": {
-      "PICO_SDK_PATH": "${workspaceRoot}/pico-sdk",
-      "PICO_EXTRAS_PATH": "${workspaceRoot}/pico-extras",
-      "PATH": "${env:PATH}:${workspaceRoot}/picotool/build"
+      "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk",
+      "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
+      "PATH": "${env:PATH}:${workspaceFolder}/picotool/build"
     },
     "cortex-debug.gdbPath": "arm-none-eabi-gdb",
     "python.languageServer": "Pylance"

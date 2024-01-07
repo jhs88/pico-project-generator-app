@@ -1,11 +1,11 @@
 {
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "cmake.buildBeforeRun": true,
   "cmake.configureOnOpen": false,
-  // "cmake.buildBeforeRun": true,
-  // "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
   "cmake.environment": {
-    "PATH": "${env:PATH}:${workspaceFolder}/picotool/build",
-    "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
-    "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk"
+    "PATH": "${env:PATH}:${workspaceFolder}/../picotool/build",
+    "PICO_EXTRAS_PATH": "${workspaceFolder}/../pico-extras",
+    "PICO_SDK_PATH": "${workspaceFolder}/../pico-sdk"
   },
   "cmake.options.advanced": {
     "build": {
@@ -34,18 +34,18 @@
   "python.languageServer": "Pylance",
   "python.linting.enabled": true,
   "terminal.integrated.env.linux": {
-    "PATH": "${env:PATH}:${workspaceFolder}/picotool/build",
-    "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
-    "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk"
+    "PATH": "${env:PATH}:${workspaceFolder}/../picotool/build",
+    "PICO_EXTRAS_PATH": "${workspaceFolder}/../pico-extras",
+    "PICO_SDK_PATH": "${workspaceFolder}/../pico-sdk"
   },
   "terminal.integrated.env.osx": {
-    "PATH": "${env:PATH}:${workspaceFolder}/picotool/build",
-    "PICO_EXTRAS_PATH": "${workspaceFolder}/pico-extras",
-    "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk"
+    "PATH": "${env:PATH}:${workspaceFolder}/../picotool/build",
+    "PICO_EXTRAS_PATH": "${workspaceFolder}/../pico-extras",
+    "PICO_SDK_PATH": "${workspaceFolder}/../pico-sdk"
   },
   "terminal.integrated.env.windows": {
-    "PATH": "${env:PATH}:${workspaceFolder}\\picotool\\build",
-    "PICO_EXTRAS_PATH": "${workspaceFolder}\\pico-extras",
-    "PICO_SDK_PATH": "${workspaceFolder}\\pico-sdk"
+    "PATH": "${env:PATH}:${workspaceFolder}\\..\\picotool\\build",
+    "PICO_EXTRAS_PATH": "${workspaceFolder}\\..\\pico-extras",
+    "PICO_SDK_PATH": "${workspaceFolder}\\..\\pico-sdk"
   }
 }

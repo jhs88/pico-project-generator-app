@@ -8,12 +8,12 @@
         // "${env:PICO_EXTRAS_PATH}/**",
         // "${env:PICO_EXAMPLES_PATH}/**",
         // "${env:PICO_PLAYGROUND_PATH}/**",
-        "${workspaceFolder}/pico-sdk/**",
-        "${workspaceFolder}/pico-extras/**",
-        "${workspaceFolder}/pico-playground/**",
-        "${workspaceFolder}/pico-project-generator/**",
-        "${workspaceFolder}/picoprobe/**",
-        "${workspaceFolder}/picotool/**"
+        "${workspaceFolder}/../pico-sdk/**",
+        "${workspaceFolder}/../pico-extras/**",
+        "${workspaceFolder}/../pico-playground/**",
+        "${workspaceFolder}/../pico-project-generator/**",
+        "${workspaceFolder}/../picoprobe/**",
+        "${workspaceFolder}/../picotool/**"
       ],
       "defines": [],
       "compilerPath": "/usr/bin/arm-none-eabi-gcc",
