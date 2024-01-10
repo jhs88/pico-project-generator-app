@@ -23,7 +23,7 @@
   },
   "cortex-debug.gdbPath": "arm-none-eabi-gdb",
   "micropico.openOnStart": true,
-  "micropico.syncFolder": "",
+  "micropico.syncFolder": "scripts",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.diagnosticSeverityOverrides": {
     "reportMissingModuleSource": "none"
