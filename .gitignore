@@ -1,5 +1,5 @@
 .idea
 cmake-*
 .DS_Store
-build*
+**/build*
 Pico-W-Stub
