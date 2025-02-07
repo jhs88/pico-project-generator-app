@@ -28,9 +28,15 @@
   "python.analysis.diagnosticSeverityOverrides": {
     "reportMissingModuleSource": "none"
   },
-  "python.analysis.extraPaths": [".vscode/Pico-W-Stub"],
+  "python.analysis.extraPaths": [
+    ".vscode/Pico-W-Stub",
+    "~/.micropico-stubs/included"
+  ],
   "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.typeshedPaths": [".vscode/Pico-W-Stub"],
+  "python.analysis.typeshedPaths": [
+    ".vscode/Pico-W-Stub",
+    "~/.micropico-stubs/included"
+  ],
   "python.languageServer": "Pylance",
   "python.linting.enabled": true,
   "terminal.integrated.env.linux": {
